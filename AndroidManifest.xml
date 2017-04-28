@@ -23,5 +23,6 @@
             </intent-filter>
         </activity>
     </application>
-
+    <!-- 定位服务需要添加用户许可 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 </manifest>
